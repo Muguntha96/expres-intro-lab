@@ -11,8 +11,8 @@ app.set('view engine', 'ejs')
 
 // mount routes
 app.get('/', (req, res) => res.redirect('/students'))
-app.get('/students', (req, res) => res.render('students/index',{
-  students:students
+app.get('/students', (req, res) => res.render('students/index', {
+  students: students
 }))
 
 
